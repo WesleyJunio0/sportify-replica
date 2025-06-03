@@ -1,13 +1,11 @@
-
+import Header from "./componentes/Header.jsx";
 
 function App() {
  
 
-  return
-    <>
-      
-    </>
-  
+  return (
+    <Header />
+  );
 }
 
 export default App
