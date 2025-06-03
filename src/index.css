@@ -12,3 +12,14 @@ body {
 a { 
     color: inherit;
 }
+
+.header {
+    padding: 10px 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.header > img {
+    width: 50px;
+}

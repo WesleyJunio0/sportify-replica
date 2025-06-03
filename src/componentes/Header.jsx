@@ -1,5 +1,5 @@
 import React from 'react';
-import logosportify from '../assets/download.png';
+import logosportify from '../assets/Spotify_Primary_Logo_RGB_Green.png';
 
 
 const Header = () => {
