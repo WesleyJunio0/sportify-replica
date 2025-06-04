@@ -8,7 +8,7 @@ return (
            <img src={logosportify} 
                alt="Spotify logo with green text Spotify on a white background, conveying a modern and energetic tone" 
             />
-              <a href="http://"> 
+              <a className='header-link' href="http://"> 
             <h1>Spotify</h1>
               
               </a>    

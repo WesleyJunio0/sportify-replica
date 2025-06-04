@@ -5,12 +5,26 @@
 }
 
 body {
+    height: 100svh;
     background-color: #121212;
     color: #FFFFFF;
+    font-family: 'Montserrat', sans-serif;
 }
 
 a { 
     color: inherit;
+    text-decoration: none;
+}
+
+#root {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+   
+}
+
+.header-link:hover {
+    text-decoration: underline;
 }
 
 .header {
@@ -18,8 +32,32 @@ a {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+
 }
 
 .header > img {
     width: 50px;
 }
+
+.main {
+    margin: 0 10px ;
+    background-image: linear-gradient(to bottom right, #2c721b5a, transparent);
+    border-radius: 5px 5px 0;
+    height: 100%;
+}
+
+
+.main__texto {
+    padding: 10px 20px;
+    display: flex;
+    /*flex-direction: row;*/
+    justify-content: space-between;
+    flex: 1;
+}   
+
+.main__link:hover {
+    text-decoration: underline;
+}
+
+
+
