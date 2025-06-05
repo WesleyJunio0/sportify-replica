@@ -1,0 +1,81 @@
+// database/songs.js
+
+export const songs = [
+  // Sertanejo
+  {
+    id: 1,
+    title: "Coração Cachorro",
+    artist: "Ávine e Matheus Fernandes",
+    genre: "Sertanejo",
+    image: "https://i.scdn.co/image/ab67616d00001e024be609979a2181bd74e8eec5",
+    url: "https://open.spotify.com/intl-pt/track/2RGIuYTsyyHoOCqW0krvNE"
+  },
+  {
+    id: 2,
+    title: "Evidências",
+    artist: "Chitãozinho & Xororó",
+    genre: "Sertanejo",
+    image: "https://i.scdn.co/image/ab67616d00001e021f5649408b971c1f38e9282f",
+    url: "https://open.spotify.com/intl-pt/track/1X95pCQG939KCbJL6yVQgw"
+  },
+  {
+    id: 3,
+    title: "Alô Ambev",
+    artist: "Zé Neto & Cristiano",
+    genre: "Sertanejo",
+    image: "https://i.scdn.co/image/ab67616d00001e0289ee3767acd203e8909de6e3",
+    url: "https://open.spotify.com/intl-pt/track/5m5aY6S9ttfIG157xli2Rs"
+  },
+
+  // Pagode
+  {
+    id: 4,
+    title: "A Amizade",
+    artist: "Fundo de Quintal",
+    genre: "Pagode",
+    image: "https://i.scdn.co/image/ab67616d00001e02151fe07311db30d2b6a06928",
+    url: "https://open.spotify.com/intl-pt/track/1wPYSsMTy44fcY8eFXFBhE"
+  },
+  {
+    id: 5,
+    title: "Telegrama",
+    artist: "Zeca Baleiro",
+    genre: "Pagode",
+    image: "https://i.scdn.co/image/ab67616d00001e028d8e4f79318ff1c5a5edecb4",
+    url: "https://open.spotify.com/intl-pt/track/0MeqLDxoK38jwkcWKDiPHu"
+  },
+  {
+    id: 6,
+    title: "Me Apaixonei Pela Pessoa Errada",
+    artist: "Exaltasamba",
+    genre: "Pagode",
+    image: "https://i.scdn.co/image/ab67616d00001e028cec0aa6e29f88c2ef88f0ba",
+    url: "https://open.spotify.com/intl-pt/track/0lskTzcFFTmCCgLKRpGJdQ"
+  },
+
+  // Funk
+  {
+    id: 7,
+    title: "Baile de Favela",
+    artist: "MC João",
+    genre: "Funk",
+    image: "https://i.scdn.co/image/ab67616d00001e0277606320b7ae8d7f0fc43902",
+    url: "https://open.spotify.com/intl-pt/track/5nwkZfrwFGehnwYA1Z664w"
+  },
+  {
+    id: 8,
+    title: "Parado no Bailão",
+    artist: "MC L da Vinte & MC Gury",
+    genre: "Funk",
+    image: "https://i.scdn.co/image/ab67616d00001e02b05904e1f9b5c426da85e098",
+    url: "https://open.spotify.com/intl-pt/track/3Hb9kUdm4yf839Fle4RIdT"
+  },
+  {
+    id: 9,
+    title: "Sento Novinha",
+    artist: "MC Fioti & MC Lan",
+    genre: "Funk",
+    image: "https://i.scdn.co/image/ab67616d00001e02262777184694147ff9f65475",
+    url: "https://open.spotify.com/intl-pt/track/6UPuuP84UDj9SI1MFRnGgc"
+  }
+];
