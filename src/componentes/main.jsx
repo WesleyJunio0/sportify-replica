@@ -7,12 +7,12 @@ import ItemList from './ItemList';
 const Main = () => {
   return (
     <div className="main">
-      <ItemList title="Artistas populares" item={7} />
+      <ItemList title="Artistas populares" items={7} />
 
-      {/*<ItemList title="Musicas populares" items={10} />*/}
+      <ItemList title="Músicas populares" items={10} />
       {/*colocar o valores entre "" significar texto se queremos passar um valor para props utilizamos {...} */}
 
-        <div className="item__lista">
+       {/* <div className="item__lista">
           <div className="item-list__header item-list__headerr ">
               <h2>Musicas populares</h2>
               <a href="" className="main__link">Mostrar mais</a>
@@ -224,7 +224,7 @@ const Main = () => {
               
           </div>
           </div>
-        </div>
+        </div>*/}
 
     </div>
   )
