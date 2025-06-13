@@ -2,14 +2,16 @@ import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCirclePlay } from '@fortawesome/free-solid-svg-icons';
 import ItemList from './ItemList';
+import { songs } from '../database (banco de dados)/songs';
+import { Artists } from '../database (banco de dados)/Artists';
 
 
 const Main = () => {
   return (
     <div className="main">
-      <ItemList title="Artistas populares" items={7} />
+      <ItemList title="Artistas populares" items={7} itemsArray={Artists} />
 
-      <ItemList title="Músicas populares" items={10} />
+      <ItemList title="Músicas populares" items={10} itemsArray={songs} />
       {/*colocar o valores entre "" significar texto se queremos passar um valor para props utilizamos {...} */}
 
        {/* <div className="item__lista">

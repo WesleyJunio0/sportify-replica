@@ -4,7 +4,7 @@ export const songs = [
   // Sertanejo
   {
     id: 1,
-    title: "Coração Cachorro",
+    name: "Coração Cachorro",
     artist: "Ávine e Matheus Fernandes",
     genre: "Sertanejo",
     image: "https://i.scdn.co/image/ab67616d00001e024be609979a2181bd74e8eec5",
@@ -12,7 +12,7 @@ export const songs = [
   },
   {
     id: 2,
-    title: "Evidências",
+    name: "Evidências",
     artist: "Chitãozinho & Xororó",
     genre: "Sertanejo",
     image: "https://i.scdn.co/image/ab67616d00001e021f5649408b971c1f38e9282f",
@@ -20,7 +20,7 @@ export const songs = [
   },
   {
     id: 3,
-    title: "Alô Ambev",
+    name: "Alô Ambev",
     artist: "Zé Neto & Cristiano",
     genre: "Sertanejo",
     image: "https://i.scdn.co/image/ab67616d00001e0289ee3767acd203e8909de6e3",
@@ -30,7 +30,7 @@ export const songs = [
   // Pagode
   {
     id: 4,
-    title: "A Amizade",
+    name: "A Amizade",
     artist: "Fundo de Quintal",
     genre: "Pagode",
     image: "https://i.scdn.co/image/ab67616d00001e02151fe07311db30d2b6a06928",
@@ -38,7 +38,7 @@ export const songs = [
   },
   {
     id: 5,
-    title: "Telegrama",
+    name: "Telegrama",
     artist: "Zeca Baleiro",
     genre: "Pagode",
     image: "https://i.scdn.co/image/ab67616d00001e028d8e4f79318ff1c5a5edecb4",
@@ -46,7 +46,7 @@ export const songs = [
   },
   {
     id: 6,
-    title: "Me Apaixonei Pela Pessoa Errada",
+    name: "Me Apaixonei Pela Pessoa Errada",
     artist: "Exaltasamba",
     genre: "Pagode",
     image: "https://i.scdn.co/image/ab67616d00001e028cec0aa6e29f88c2ef88f0ba",
@@ -56,7 +56,7 @@ export const songs = [
   // Funk
   {
     id: 7,
-    title: "Baile de Favela",
+    name: "Baile de Favela",
     artist: "MC João",
     genre: "Funk",
     image: "https://i.scdn.co/image/ab67616d00001e0277606320b7ae8d7f0fc43902",
@@ -64,7 +64,7 @@ export const songs = [
   },
   {
     id: 8,
-    title: "Parado no Bailão",
+    name: "Parado no Bailão",
     artist: "MC L da Vinte & MC Gury",
     genre: "Funk",
     image: "https://i.scdn.co/image/ab67616d00001e02b05904e1f9b5c426da85e098",
@@ -72,7 +72,7 @@ export const songs = [
   },
   {
     id: 9,
-    title: "Sento Novinha",
+    name: "Sento Novinha",
     artist: "MC Fioti & MC Lan",
     genre: "Funk",
     image: "https://i.scdn.co/image/ab67616d00001e02262777184694147ff9f65475",

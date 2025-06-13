@@ -16,13 +16,13 @@ export const Artists =[
   {
     id: 3,
     name: "Chitãozinho & Xororó",
-    image: "https://i.scdn.co/image/ab676161000051743bb672b1c2571a88e937ca0a",
+    image: "https://i.scdn.co/image/ab67616100005174d5fcda04e60405d7e5ca3fb1",
     url: "https://open.spotify.com/intl-pt/artist/487N2T9nIPEHrlTZLL3SQs"
   },
   {
     id: 4,
     name: "Zé Neto & Cristiano",
-    image: "https://i.scdn.co/image/ab6761610000e5ebf6g7h8i9j0k1l2m3n4o5p6q7",
+    image: "https://i.scdn.co/image/ab676161000051743bb672b1c2571a88e937ca0a",
     url: "https://open.spotify.com/artist/1iR4d3PMwItqG3o1Qk5oK5"
   },
 

@@ -1,8 +1,9 @@
 import React from 'react';
 import SingleItem from './SingleItem';
+import { Artists } from '../database (banco de dados)/Artists';
 
-const ItemList = ({title, items}) => {
-    
+const ItemList = ({title, items, itemsArray}) => {
+
   return (
     <div className="item__lista">
               <div className="item-list__header item-list__headerr ">
@@ -11,7 +12,9 @@ const ItemList = ({title, items}) => {
               </div>
 
         <div className="item-list__container">  
-           {Array(items).fill().map(() => (<SingleItem />))}
+           {itemsArray.filter((currentValue, index) => index < items).map((currObj, index) => (<SingleItem key={`${title}-${index}`} 
+           {...currObj}
+           />))}
 
 
         </div>
