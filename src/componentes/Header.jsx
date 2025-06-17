@@ -1,5 +1,6 @@
 import React from 'react';
 import logosportify from '../assets/Spotify_Primary_Logo_RGB_Green.png';
+import { Link } from 'react-router-dom';
 
 
 const Header = () => {
@@ -8,10 +9,10 @@ return (
            <img src={logosportify} 
                alt="Spotify logo with green text Spotify on a white background, conveying a modern and energetic tone" 
             />
-              <a className='header-link' href="http://"> 
+              <Link className='header-link' to="http://"> 
             <h1>Spotify</h1>
               
-              </a>    
+              </Link>    
     </div>
 )
 }
