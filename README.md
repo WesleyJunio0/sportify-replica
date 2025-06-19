@@ -14,7 +14,6 @@ Este projeto é uma réplica visual e funcional inspirada na interface do Spotif
 
 ### 🗄️ Back-end
 - Node.js
-- Express (se estiver usando)
 - Dados simulados com arquivos JavaScript (sem banco de dados real)
 
 ---
