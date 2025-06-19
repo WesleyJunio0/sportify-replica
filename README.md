@@ -1,3 +1,37 @@
+# 🎵 Réplica do Spotify
+
+Este projeto é uma réplica visual e funcional inspirada na interface do Spotify. Foi desenvolvido como aplicação **fullstack**, utilizando **React** no front-end e **Node.js** no back-end. Os dados de artistas e músicas são simulados por meio de objetos JavaScript organizados em arquivos e expostos por uma API local.
+
+---
+
+## 🚀 Tecnologias utilizadas
+
+### 🖥️ Front-end
+- React
+- JavaScript
+- HTML5
+- CSS3
+
+### 🗄️ Back-end
+- Node.js
+- Express (se estiver usando)
+- Dados simulados com arquivos JavaScript (sem banco de dados real)
+
+---
+
+## 📦 Funcionalidades
+- Interface inspirada no design do Spotify
+- Listagem de artistas e músicas com imagens, nomes, IDs e links
+- Organização por estilos musicais (ex: Sertanejo, Pagode)
+- Navegação entre seções
+- Responsividade para diferentes tamanhos de tela
+- Comunicação com o back-end via API (fetch ou axios)
+
+---
+
+
+
+
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
