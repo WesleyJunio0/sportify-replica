@@ -6,10 +6,14 @@ import { Link } from 'react-router-dom';
 const Header = () => {
 return (
    <div className="header">
-           <img src={logosportify} 
-               alt="Spotify logo with green text Spotify on a white background, conveying a modern and energetic tone" 
-            />
-              <Link className='header-link' to="http://"> 
+              <Link className='header-link' to="/">
+  
+               <img src={logosportify}
+                   alt="Spotify logo with green text Spotify on a white background, conveying a modern and energetic tone"
+                />
+              </Link>
+
+              <Link className='header-link' to="/"> 
             <h1>Spotify</h1>
               
               </Link>    

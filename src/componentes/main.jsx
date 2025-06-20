@@ -6,12 +6,16 @@ import { songs } from '../database (banco de dados)/songs';
 import { Artists } from '../database (banco de dados)/Artists';
 
 
-const Main = () => {
+const Main = ({type}) => {
   return (
     <div className="main">
-      <ItemList title="Artistas populares" items={7} itemsArray={Artists} path='/artist' idpath='artist'/>
+      {type === "artists" || type === undefined ? (
+      <ItemList title="Artistas populares" items={7} itemsArray={Artists} path='/artists' idpath='artist'/>) : (<></>)
+       }
 
-      <ItemList title="Músicas populares" items={10} itemsArray={songs} path='/songs' idpath='song'/>
+      {type === "songs" || type === undefined ? (
+      <ItemList title="Músicas populares" items={10} itemsArray={songs} path='/songs' idpath='song'/>) : (<></>)
+    }
       {/*colocar o valores entre "" significar texto se queremos passar um valor para props utilizamos {...} */}
 
     </div>

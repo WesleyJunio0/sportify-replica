@@ -4,7 +4,7 @@ import { faCirclePlay } from '@fortawesome/free-solid-svg-icons';
 import { Link } from 'react-router-dom';
 
 
-const SingleItem = ({id,name, image, artist, idpath}) => {
+const SingleItem = ({id,name, image, artist, banner, idpath}) => {
   return (
 
       <Link to={`${idpath}/${id}`} className="single-item">
@@ -21,7 +21,7 @@ const SingleItem = ({id,name, image, artist, idpath}) => {
                           <div className='single-item__2line'>
                            <p className='single-item__text-title'>{name}</p>
                            </div>
-                           <p className='single-item__type'>{artist === undefined ? "Artista" : artist}</p>
+                           <p className='single-item__type'>{artist ? artist : "Artista"}</p>
                        </div>
                    
       </Link>
