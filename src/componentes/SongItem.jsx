@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 
-const SonItem = () => {
+const SongItem = () => {
   return (
     <Link to="/song/1" class="song-item">
     <p>1</p>
@@ -17,4 +17,4 @@ const SonItem = () => {
   )
 }
 
-export default SonItem
+export default SongItem
