@@ -192,7 +192,7 @@ a {
 .artist {
     border-radius: 15px;
     margin: 0 10px 10px;
-    overflow: hidden;
+    /*overflow: hidden;*/
 }
 
 .artist__header {

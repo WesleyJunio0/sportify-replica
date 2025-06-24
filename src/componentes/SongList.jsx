@@ -8,6 +8,14 @@ const SongList = () => {
       <div className="song-list"> 
 
       <SongItem />
+      <SongItem />
+      <SongItem />
+      <SongItem />
+      <SongItem />
+      <SongItem />
+      <SongItem />
+      <SongItem />
+      <p className='song-list__see-sore'>Ver mais</p>
       </div>
 
   )
