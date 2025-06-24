@@ -5,7 +5,7 @@ export const Artists =[
     id: 1,
     name: "Avine Vinny",
     image: "https://i.scdn.co/image/ab676161000051740673281edec44d5b28ca0f33",
-    banner:"imagens/banneravine",
+    banner:"imagens/banneravine.webp",
     url: "https://open.spotify.com/intl-pt/artist/4KDxYlnGZEiS60pAnfZf4W",
    
   },

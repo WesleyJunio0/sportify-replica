@@ -1,6 +1,5 @@
 import React from 'react';
 import SingleItem from './SingleItem';
-import { Artists } from '../database (banco de dados)/Artists';
 import { Link, useLocation } from 'react-router-dom';
 
 const ItemList = ({title, items, itemsArray, path, idpath}) => {
