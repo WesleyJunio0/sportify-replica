@@ -216,7 +216,7 @@ a {
 
 .artist__body {
     padding: 39px 25px;
-    background-image: linear-gradient(to bottom, hsl(141deg 75% 10%), hsl(141deg, 75% 2.5%));
+    background-image: linear-gradient(to bottom, #142d1a, #070e08);
     display: flex;
     flex-direction: column;
     gap: 25px;
@@ -254,7 +254,7 @@ a {
 
 
 .song-item:hover {
-    background-color: hsl(141deg 75% 15%);
+    background-color: rgb(10, 67, 30);
     text-decoration: none;
 }
 
@@ -289,4 +289,151 @@ a {
 
 .song-list__see-sore:hover {
     text-decoration: underline;
+}
+
+/*som */
+
+
+.song {
+    display: grid;
+    grid-template-rows: 1fr auto;
+    flex: 1;
+}
+
+.song__container {
+    margin: 0 20px;
+    border-top-right-radius: 15px;
+    background-image: linear-gradient(to bottom, #18391a, #0a140a);
+    border-top-left-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 25px;
+
+}
+
+.song__image-container {
+    box-shadow: 0 0 25px 10px #050f0840;
+}
+
+.song__bar {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    place-items: center;
+    background-color: black;
+    color: white;
+    padding: 15px 25px;
+    gap: 15px;
+}
+
+.song__artist-image {
+    justify-self: start;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.song__name {
+    font-size: 19px;
+    font-weight: 700;
+}
+
+@media (max-width: 1280px) {
+    .song__name {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 800px) {
+    .song__bar {
+        grid-template-columns: auto 1fr;
+    }
+}
+
+@media (max-width: 600px) {
+    .song__artist-image {
+        width: 50px;
+        height: 50px;
+    }
+}
+
+.player {
+    justify-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+}
+
+.player__controllers {
+    display: flex;
+    font-size: 25px;
+    align-items: center;
+    gap: 20px;
+
+}
+
+.player__icons {
+    cursor: pointer;
+    transition-property: transdorm, color;
+    transition-timing-function: ease ;
+    transition-duration: 200ms;
+}
+
+.player__icon:hover {
+    transform: scale(111%);
+    color: #a6f4c5;
+}
+
+.player__icon--play {
+    font-size: 35px;
+}
+
+.player__progress {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 490px;
+
+}
+
+.player__time {
+    width: 45px;
+    text-align: center;
+}
+
+.player__bar {
+    width: 100%;
+    height: 4px;
+    background-color: #666;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.player__bar--progress {
+  --_progress: 0%; /* valor inicial padrão */
+  width: var(--_progress);
+  height: 100%;
+  background-color: white;
+  border-radius: 5px;
+  
+  transition: width 0.2s ease;
+}
+
+
+@media (max-width: 1200px){
+        .player__time {
+            display: none;
+        }
+
+
+}
+
+
+@media (max-width:800px){
+    .player {
+        grid-row: 2;
+        grid-column:1 / span 2;
+    }
 }
