@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 
 const SongItem = () => {
   return (
-    <Link to="/song/1" class="song-item">
+    <Link to="/song/1" className="song-item">
 
     <div className='song-item__number-album'>
       <p>1</p>

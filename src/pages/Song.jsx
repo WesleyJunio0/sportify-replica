@@ -2,8 +2,9 @@ import React from 'react'
 import Player from '../componentes/Player'
 import { Link } from 'react-router-dom'
 
-
 const Song = () => {
+  
+
   return (
     <div className='song'>
       <div className="song__container">

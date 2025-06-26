@@ -2,7 +2,7 @@ import React from 'react'
 import SongItem from './SongItem';
 
 
-const SongList = () => {
+const SongList = ({ArtistName}) => {
   return (
     
       <div className="song-list"> 
