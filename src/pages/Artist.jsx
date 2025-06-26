@@ -1,7 +1,7 @@
 import React from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCirclePlay } from '@fortawesome/free-solid-svg-icons';
-import { Link , useParams} from 'react-router-dom'
+import { Link , useParams} from 'react-router-dom';
 import SongList from '../componentes/SongList';
 
 import { Artists } from "../database (banco de dados)/Artists"
@@ -10,6 +10,7 @@ import { songs } from '../database (banco de dados)/songs';
 
 
 const Artist = () => {
+
   const { id } = useParams();
 
 
@@ -17,9 +18,13 @@ const Artist = () => {
     (currentArtistObj) => currentArtistObj.id === Number(id)
   )[0];
 
-  const songsObj = Artists.filter(
-    (currentsongObj) => currentsongObj.artista === artistaObj.name
-  )[0];
+  const songsObj = songs.filter(
+    (currentsongObj) => currentsongObj.artist === artistaObj.name
+  );
+
+  const randomIndex = Math.floor(Math.random() * (songsObj.length - 1));
+
+  const randomIdfromArtist =  songsObj[randomIndex].id;
 
   return (
     <div className="artist">
@@ -39,10 +44,10 @@ const Artist = () => {
         <h2>Populares</h2>
 
 
-      <SongList ArtistName={artistaObj.name}/>
+      <SongList songs={songsObj}/>
 
       </div>
-      <Link to="/song/1">
+      <Link to={`/song/${randomIdfromArtist}`}>
         <FontAwesomeIcon className="single-item--artist  single-item__icon " icon={faCirclePlay} />
       </Link>
     </div>

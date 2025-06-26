@@ -1,18 +1,20 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 
-const SongItem = () => {
+const SongItem = ({image, duration, name, artist, audio, id, index}) => {
   return (
-    <Link to="/song/1" className="song-item">
+    <Link to={`/song/${id}`} className="song-item">
 
     <div className='song-item__number-album'>
-      <p>1</p>
+      <p>{index + 1}</p>
       <div className='song-item__album'>
-        <img src="https://janiel.com.br/wp-content/uploads/2025/05/avine-vinny-lanca-segunda-edicao-do-projeto-avine-love-1024x683.jpg" alt="0"  className='song-item__image'/>
-      <p className='song-item__name'>projeto-avine-love</p>
+        <img src={image} alt={`image da musica ${name}`}  className='song-item__image'/>
+
+
+      <p className='song-item__name'>{name}</p>
       </div>
     </div>
-    <p>2:30</p>
+    <p>{duration}</p>
     
     </Link>
     

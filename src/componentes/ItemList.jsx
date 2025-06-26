@@ -19,8 +19,13 @@ const ItemList = ({title, items, itemsArray, path, idpath}) => {
 
         <div className="item-list__container">
             
-           {itemsArray.filter((currentValue, index) => index < finalItems).map((currObj, index) => (<SingleItem idpath={idpath} {...currObj} key={`${title}-${index}`} 
-           {...currObj}
+           {itemsArray.filter(
+            (currentValue, index) => index < finalItems).map((currObj, index) => (
+            
+            <SingleItem idpath={idpath} 
+            {...currObj} 
+            key={`${title}-${index}`} 
+         
            />))}
 
 
