@@ -9,7 +9,7 @@ const Song = () => {
 
  
 
-const {image, name, duration, artist, audio, index} = songs.filter(
+const {image, name, duration, artist, index} = songs.filter(
     (currentsongtObj) => currentsongtObj._id === id
   )[0];
 
@@ -47,7 +47,9 @@ const {image, name, duration, artist, audio, index} = songs.filter(
 
         </Link>
 
-        <Player duration={duration}  randomIdfromArtist= {randomIdfromArtist} randomId2fromArtist={randomId2fromArtist}/>
+        <Player duration={duration}  randomIdfromArtist= {randomIdfromArtist} randomId2fromArtist={randomId2fromArtist}
+        
+        />
 
         <div>
 

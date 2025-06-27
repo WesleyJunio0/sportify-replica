@@ -9,8 +9,7 @@
     genre: "Sertanejo",
     duration:"2:40",
      duration:"2:40",
-    image: "https://i.scdn.co/image/ab67616d00001e024be609979a2181bd74e8eec5",
-    url: "https://open.spotify.com/intl-pt/track/2RGIuYTsyyHoOCqW0krvNE"
+    image: "https://i.scdn.co/image/ab67616d00001e024be609979a2181bd74e8eec5"
   },
   {
     id: 2,
@@ -140,6 +139,8 @@
 import { songs } from "../../api/Api2";
 
 export {songs}
+
+
 
 
 
