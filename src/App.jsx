@@ -16,8 +16,11 @@ function App() {
       <Route path="/" element={<Home />}></Route>
       <Route path="/Artist/:id" element={<Artist/>}></Route>
       <Route path="/Artists" element={<Artists />}></Route>
+      <Route path="/Artists/artist/:id" element={<Artist />} />
       <Route path="/Song/:id" element={<Song />}></Route>
       <Route path="/Songs" element={<Songs />}></Route>
+      <Route path="/Songs/Song/:id" element={<Song />} />
+
       
     </Routes>
   </BrowserRouter>
