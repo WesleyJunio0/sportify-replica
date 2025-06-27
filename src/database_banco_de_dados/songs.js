@@ -1,6 +1,6 @@
 // database/songs.js
 
-export const songs = [
+/*export const songs = [
   // Sertanejo
   {
     id: 1,
@@ -135,4 +135,11 @@ export const songs = [
   },
 
 
-];
+];*/
+
+import { songs } from "../../api/Api2";
+
+export {songs}
+
+
+

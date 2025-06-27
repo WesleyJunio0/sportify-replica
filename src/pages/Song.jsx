@@ -1,8 +1,8 @@
 import React from 'react'
 import Player from '../componentes/Player'
 import { Link , useParams} from 'react-router-dom';
-import { songs } from '../database (banco de dados)/songs';
-import { Artists } from '../database (banco de dados)/Artists';
+import { Artists } from "../database_banco_de_dados/Artists"
+import { songs } from '../database_banco_de_dados/songs'; 
 
 const Song = () => {
   const { id } = useParams();
@@ -10,7 +10,7 @@ const Song = () => {
  
 
 const {image, name, duration, artist, audio, index} = songs.filter(
-    (currentsongtObj) => currentsongtObj.id === Number(id)
+    (currentsongtObj) => currentsongtObj._id === id
   )[0];
 
   const artistObj = Artists.filter(
@@ -26,9 +26,9 @@ const {image, name, duration, artist, audio, index} = songs.filter(
    const randomIndex2 = Math.floor(Math.random() * (songsObj.length - 1));
 
 
-  const randomIdfromArtist =  songsObj[randomIndex].id;
+  const randomIdfromArtist =  songsObj[randomIndex]._id;
 
-  const randomId2fromArtist =  songsObj[randomIndex2].id;
+  const randomId2fromArtist =  songsObj[randomIndex2]._id;
 
 
   
@@ -40,7 +40,7 @@ const {image, name, duration, artist, audio, index} = songs.filter(
       </div>
       <div className="song__bar">
 
-        <Link to={`/artist/${artistObj.id}`} className='song__artist-image'>
+        <Link to={`/artist/${artistObj._id}`} className='song__artist-image'>
 
           <img width={75}
           height={75} src={artistObj.image} alt={ `imagem do artista ${artist}`} />

@@ -2,8 +2,8 @@ import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCirclePlay } from '@fortawesome/free-solid-svg-icons';
 import ItemList from './ItemList';
-import { songs } from '../database (banco de dados)/songs';
-import { Artists } from '../database (banco de dados)/Artists';
+import { Artists } from "../database_banco_de_dados/Artists"
+import { songs } from '../database_banco_de_dados/songs'; 
 
 
 const Main = ({type}) => {

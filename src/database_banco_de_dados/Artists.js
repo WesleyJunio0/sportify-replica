@@ -1,4 +1,4 @@
-export const Artists =[
+/*export const Artists =[
 
   // Sertanejo
   {
@@ -89,3 +89,11 @@ export const Artists =[
    
   }
 ];
+*/
+
+import { Artists} from "../../api/Api2";
+
+export {Artists}
+
+
+
