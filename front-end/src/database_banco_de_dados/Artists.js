@@ -91,6 +91,9 @@
 ];
 */
 
-import { Artists } from "../../api/Api2";
+import { Artists} from "../../api/Api2";
 
-export { Artists };
+export {Artists}
+
+
+

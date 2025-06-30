@@ -1,5 +1,8 @@
+//componentes do projeto
 import Header from "./componentes/Header.jsx";
+//Pacotes externos
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
+//páginas do projeto
 import Home from "./pages/home.jsx";
 import Artist from "./pages/Artist.jsx";
 import Songs from "./pages/Songs.jsx";
@@ -27,4 +30,4 @@ function App() {
   );
 }
 
-export default App
+export default App;

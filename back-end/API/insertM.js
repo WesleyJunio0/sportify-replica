@@ -1,6 +1,3 @@
-
-{/*import {Artists} from "../../src/database_banco_de_dados/Artists.js";
-import {songs} from "../../src/database_banco_de_dados/songs.js";*/}
 import { songs } from "../../front-end/src/database_banco_de_dados/songs.js";
 import { Artists } from "../../front-end/src/database_banco_de_dados/Artists.js";
 import { db } from "./connect.js";
