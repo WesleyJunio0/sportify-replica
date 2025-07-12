@@ -24,4 +24,4 @@ app.get("/songs", async(request, response) => (
 ));
 
 app.listen(PORT, () => (
-    console.log(`servidor esta escutando na porta ${PORT}`)));
+    console.log(`servidor esta escutando na porta ${PORT}`))); 
